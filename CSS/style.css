@@ -417,6 +417,7 @@ body {
 
 #footer-top {
     background: white;
+    text-align: center;
 }
 
 #footer-top .widget {
@@ -480,11 +481,12 @@ body {
 #footer-top #instafeed {
     margin-top: 10px;
     margin-bottom: 35px;
+    font-size: 0;
 }
 
 #footer-top #instafeed .list {
     display: inline-block;
-    width: 16.4%;
+    width: 16.66%;
 }
 
 #footer-middle {
