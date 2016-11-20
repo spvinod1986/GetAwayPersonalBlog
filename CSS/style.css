@@ -414,3 +414,134 @@ body {
 .newsletter-area .form-newsletter #mc-embedded-subscribe:hover:after {
     width: 50px;
 }
+
+#footer-top {
+    background: white;
+}
+
+#footer-top .widget {
+    background: transparent;
+    border: 0;
+    margin: 0 !important;
+    padding: 0;
+}
+
+#footer-top .widget .widget-title-area {
+    margin-bottom: 0.2em;
+    overflow: hidden;
+    position: relative;
+}
+
+#footer-top .widget .widget-title {
+    background: transparent;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 0;
+}
+
+#footer-top .widget .widget-title:before, #footer-top .widget .widget-title:after {
+    background: #f0f0f0;
+    content: "";
+    height: 1px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+}
+
+#footer-top .widget .widget-title span {
+    background: white;
+    position: relative;
+    top: -2px;
+    z-index: 10;
+}
+
+#footer-top .widget .widget-title span:before {
+    margin-right: 10px;
+    left: -30%;
+    color: #9bc6b2;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+#footer-top .widget .widget-title span:after {
+    margin-left: 10px;
+    right: -30%;
+    color: #9bc6b2;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+#footer-top #instafeed {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+#footer-top #instafeed .list {
+    display: inline-block;
+    width: 16.4%;
+}
+
+#footer-middle {
+    padding: 20px 0;
+    background: #f7faf9;
+}
+
+#footer-middle .widget {
+    background: transparent;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#footer-middle .widget .widget-title {
+    padding: 0;
+    font-weight: 700;
+    background: transparent;
+}
+
+#footer-bottom {
+    color: #7e7e7e;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 0;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.topbutton {
+    color: #9bc6b2;
+    border-color: #9bc6b2;
+    background: white;
+    border: 1px solid;
+    bottom: 50px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 40px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-show {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.btn-hide {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+}
