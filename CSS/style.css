@@ -46,6 +46,10 @@ body {
     border-radius: 5px;
 }
 
+.content-area .col-rightpad {
+    padding-right: 0;
+}
+
 .content-area .post-coverphoto {
     background-color: #021f15;
 }
